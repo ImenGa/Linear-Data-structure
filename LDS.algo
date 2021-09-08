@@ -1,0 +1,13 @@
+ALGORITHM sum_array
+VAR
+   set1 : ARRAY_OF INTEGER[3]; 
+   i : INTEGER; // declaring the index for each element in the array.
+   sum:INTEGER:=0;
+BEGIN
+  set1 := {3,1,7,9}; // inserting the elements directly in the array.
+  Write('Print Array :')
+  WHILE (i=1,i<=3,i++) DO
+       sum:=(i-1)+i; //pour sommer les index du tableaux 
+       write (sum[i]);
+   END_WHILE
+END
